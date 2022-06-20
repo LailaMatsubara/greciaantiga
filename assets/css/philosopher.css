@@ -1,0 +1,96 @@
+div.section-wrapper {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.9);
+}
+div.section-wrapper .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+  align-items: center;
+}
+div.section-wrapper .right {
+  justify-content: flex-end;
+}
+div.section-wrapper::before {
+  content: "";
+  width: 3px;
+  position: absolute;
+  border-radius: 4px;
+  top: 10%;
+  left: 50%;
+  height: 80%;
+  background-color: var(--primary);
+}
+
+section.pensador {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+section.pensador div.img-pensador {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 15px 30px;
+  transition: all 0.3s ease-in;
+}
+section.pensador div.img-pensador:hover {
+  transform: scale(1.2);
+  border: 2px solid var(--primary);
+}
+
+section.pensador div.pensador-textos {
+  width: 300px;
+  height: 100%;
+}
+
+section.pensador div.pensador-textos h2 {
+  font-family: "Prata", serif;
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+section.pensador div.pensador-textos p {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section.pensador div.aristoteles {
+  background: url("../img/pensadores/aristoteles.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.tales {
+  background: url("../img/pensadores/tales.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.democritos {
+  background: url("../img/pensadores/democritos.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.epicuro {
+  background: url("../img/pensadores/epicuro.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.pitagoras {
+  background: url("../img/pensadores/pitagoras.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.socrates {
+  background: url("../img/pensadores/socrates.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.platao {
+  background: url("../img/pensadores/platao.jpg") center #302020 no-repeat;
+  background-size: cover;
+}
+section.pensador div.heraclito {
+  background: url("../img/pensadores/heraclito.jpg") center #302020 no-repeat;
+  background-size: cover;
+}

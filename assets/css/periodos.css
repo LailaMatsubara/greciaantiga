@@ -1,0 +1,57 @@
+.ta-tudo-aqui {
+  background-image: url("../img/fundos/periodos.png");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Prata", sans-serif;
+  color: var(--primary);
+  font-size: 30pt;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+h2 {
+  color: var(--primary);
+}
+.box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+.imagem {
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  transition: all ease-in 0.3s;
+}
+.imagem:hover {
+  transform: scale(1.2);
+  border: 2px solid var(--primary);
+}
+.coluna1 {
+  display: flex;
+}
+.coluna2 {
+  display: flex;
+  margin-left: 100px;
+}
+.textos {
+  width: 300px;
+  padding: 20px;
+}
+.barrinha {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 80%;
+  width: 2px;
+  background-color: var(--primary);
+}

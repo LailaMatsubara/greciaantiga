@@ -1,0 +1,80 @@
+.ta-tudo-aqui {
+  background-image: url("../img/fundos/parthenom.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.container-principal {
+  position: relative;
+}
+.barrinha {
+  position: absolute;
+  background-color: var(--primary);
+  width: 2px;
+  height: 80%;
+  top: 10%;
+  left: 50%;
+}
+
+h1 {
+  font-family: "Prata", serif;
+  font-size: 30pt;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#box {
+  margin: 40px 0;
+}
+section {
+  display: flex;
+  position: relative;
+}
+main {
+  width: 480px;
+  height: 750px;
+}
+aside {
+  width: 480px;
+  height: 750px;
+  margin-left: 40px;
+}
+.img1 {
+  width: 480px;
+  padding: 25px;
+  height: 250px;
+  padding-right: 30px;
+}
+.img2 {
+  width: 480px;
+  padding: 20px;
+  padding-left: 40px;
+}
+.img {
+  transition: transform 0.8s;
+}
+.img:hover {
+  transform: scale(1.09);
+}
+.textoA {
+  padding: 25px;
+  padding-bottom: 1px;
+  padding-right: 30px;
+}
+.textoB {
+  padding: 20px;
+  padding-top: 1px;
+}
+.B1 {
+  padding-right: 30px;
+}
+.B2 {
+  padding-left: 35px;
+}
